@@ -1,0 +1,129 @@
+<!doctype html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <script src="jquery-1.8.3.min.js"></script>
+    <script src="comportamiento.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wvisual | Bienvenidos!! </title>
+    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link rel="stylesheet" href="estiloswvisual.css">
+  </head>
+  <body>
+    
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+        <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+          <div class="row column">
+            <br>
+            <img class="thumbnail" src="http://placehold.it/550x350">
+            <h5>wvisual</h5>
+            <p>Creamos una web de visualizaciones para que puedas mostrarle al mundo quién eres! No necesitas otra cosa que una
+            buena fotografía y datos básicos de contacto. Únete hoy mismo a wvisual y enséñale al planeta entero tu sonrisa.
+            Tu foto de perfil es lo más importante, actualízala para sumar visualizaciones tanto como quieras. </p>
+          </div>
+        </div>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+          <div class="title-bar hide-for-large">
+            <div class="title-bar-left">
+              <button class="menu-icon" type="button" data-open="my-info"></button>
+              <span class="title-bar-title"><strong><em>ovisual</em></strong></span>
+            </div>
+          </div>
+          <div class="callout primary">
+            <div class="titulop">
+              <h1><strong> .                Todo el Mundo cabe en <em>wvisual</em></strong></h1>
+              <p class="lead"><em>.                        La red de visualizaciones mas grande se está generando... Únete hoy mismo!</em></p>
+            </div>
+          </div>
+          <div class="row small-up-2 medium-up-3 large-up-4">
+            <div class="column">
+              <img class="thumbnail" src="http://placehold.it/550x550">
+              <h5>Perfiles sugeridos</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="http://placehold.it/550x550">
+              <h5>Perfiles sugeridos</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="http://placehold.it/550x550">
+              <h5>Perfiles sugeridos</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="http://placehold.it/550x550">
+              <h5>Perfiles sugeridos</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="http://placehold.it/550x550">
+              <h5>Perfiles sugeridos</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="http://placehold.it/550x550">
+              <h5>Perfiles sugeridos</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="http://placehold.it/550x550">
+              <h5>Perfiles sugeridos</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="http://placehold.it/550x550">
+              <h5>Perfiles sugeridos</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="http://placehold.it/550x550">
+              <h5>Perfiles sugeridos</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="http://placehold.it/550x550">
+              <h5>Perfiles sugeridos</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="http://placehold.it/550x550">
+              <h5>Perfiles sugeridos</h5>
+            </div>
+            <div class="column">
+              <img class="thumbnail" src="http://placehold.it/550x550">
+              <h5>Perfiles sugeridos</h5>
+            </div>
+          </div>
+
+          <hr>
+
+          <div class="row">
+            <div class="medium-6 columns">
+              <h3>Únete a nuestra comunidad</h3>
+              <p>Regístrate para poder visualizar a un mayor número de personas. Filtrá desde la búsqueda el país, el estado o la ciudad que quieras
+              para encontrar personas.</p>
+              <ul class="menu">
+                <li><a href="#">Dribbble</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Whatsapp</a></li>
+              </ul>
+            </div>
+            <div class="medium-6 columns">
+              <label>Name
+                <input type="text" placeholder="Name">
+              </label>
+              <label>Email
+                <input type="text" placeholder="Email">
+              </label>
+              <label>
+                Message
+                <textarea placeholder="holla at a designerd"></textarea>
+              </label>
+              <input type="submit" class="button expanded" value="Submit">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
